@@ -1,0 +1,83 @@
+/* ------------------------------------------------------------ */
+/* imports and utilities */
+
+/* 3rd-party CSS files */
+@import 'vendor/h5bp-head.css';
+@import 'vendor/normalize.css';
+@import 'vendor/h5bp-tail.css';
+
+/* use a more intuitive box sizing model (http://is.gd/wNVjAo) */
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+/* Scale down images and embedded videos so they don't overflow their parents */
+img, object { max-width: 100%; }
+
+/*	Development/layout aid. Remove the comments
+	on this rule in order to draw boxes around DIVs
+	and other elements used for layout. */
+/* 
+div, main, article, section, aside, hgroup, header, footer, address, nav {
+	border: 1px solid rgba(255,0,0,0.15) !important;
+	background: rgba(255,0,0,0.05) !important;		
+}
+*/
+
+
+/* ------------------------------------------------------------ */
+/* start project-specifc styles below this line */
+
+body {
+	font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 16px;
+	line-height: 1.5em;
+	color: #000;
+	margin-left: 3em;
+	margin-top: 3em;
+	margin-right: 3em;
+	margin-bottom: 3em;
+
+}
+
+/*	Generally, you will only want one container element in
+	the document, wrapping around the main content area. 
+	If you have more than one container, you are probably doing
+	something wrong. 	
+*/
+.ingredients {
+	margin-top: 1em;
+	margin-right: 1em;
+	margin-bottom: 1em;
+	margin-left: 0em;
+	width: 90%;
+	max-width: 1200px;
+	padding: 1em;
+	border: 5px solid #eee;
+	background-color: #eee;
+}
+
+
+p {
+	font-size: 21px
+}
+
+em {
+	font-style: italic;
+	font-weight: normal;
+	font-size: 21px;
+}
+
+ul {
+	font-size: 21px
+}
+
+ol {
+	font-size: 21px;
+}
+
+.top {
+	
+}
+
+
+
+
