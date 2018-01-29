@@ -79,7 +79,11 @@ ol {
 }
 
 .pitch {
-	
+
 }
 
+strong {
+	font-style: normal;
+	font-weight: bolder;
+}
 
