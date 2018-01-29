@@ -20,3 +20,4 @@ The code structure is designed for clarity rather than for browser performance. 
 
 This project includes elements from HTML5 Boilerplate (see css/vendor/h5bp_README.md for more).
 
+Made by Ryan Molinari.
